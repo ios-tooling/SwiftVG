@@ -2,12 +2,30 @@
   "object": {
     "pins": [
       {
-        "package": "Suite",
-        "repositoryURL": "https://github.com/bengottlieb/Suite.git",
+        "package": "Convey",
+        "repositoryURL": "https://github.com/ios-tooling/Convey.git",
         "state": {
           "branch": null,
-          "revision": "e16288112d3608fd6f0faedab8cb927ada1425d4",
-          "version": "0.9.48"
+          "revision": "742de4ab025b77249cba4b5a547eb27a90c97802",
+          "version": "1.2.30"
+        }
+      },
+      {
+        "package": "CrossPlatformKit",
+        "repositoryURL": "https://github.com/ios-tooling/CrossPlatformKit.git",
+        "state": {
+          "branch": null,
+          "revision": "b63d2081d3e3c7a1212cca6bfd8675a0c46375da",
+          "version": "1.0.10"
+        }
+      },
+      {
+        "package": "Suite",
+        "repositoryURL": "https://github.com/ios-tooling/Suite.git",
+        "state": {
+          "branch": null,
+          "revision": "f25a0a0d88e057dba003fad422e02d3c917dd87f",
+          "version": "1.0.102"
         }
       }
     ]
