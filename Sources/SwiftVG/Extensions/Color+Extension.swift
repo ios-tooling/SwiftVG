@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import Studio
+import Suite
 import SwiftUI
 
 #if os(OSX)

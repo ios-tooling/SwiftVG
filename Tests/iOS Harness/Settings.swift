@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import Studio
+import Suite
 
 
 class Settings: DefaultsBasedPreferences {

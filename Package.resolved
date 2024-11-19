@@ -6,8 +6,8 @@
         "repositoryURL": "https://github.com/ios-tooling/Convey.git",
         "state": {
           "branch": null,
-          "revision": "742de4ab025b77249cba4b5a547eb27a90c97802",
-          "version": "1.2.30"
+          "revision": "6ed08bfbe6351658cffd3532a1d3f91d84560b05",
+          "version": "2.2.3"
         }
       },
       {
@@ -24,8 +24,17 @@
         "repositoryURL": "https://github.com/ios-tooling/Suite.git",
         "state": {
           "branch": null,
-          "revision": "f25a0a0d88e057dba003fad422e02d3c917dd87f",
-          "version": "1.0.102"
+          "revision": "4c81a72583e6ce086db7e5af3d6b263a9236d3a2",
+          "version": "1.1.16"
+        }
+      },
+      {
+        "package": "swift-syntax",
+        "repositoryURL": "https://github.com/apple/swift-syntax",
+        "state": {
+          "branch": null,
+          "revision": "64889f0c732f210a935a0ad7cda38f77f876262d",
+          "version": "509.1.1"
         }
       }
     ]

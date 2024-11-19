@@ -17,14 +17,14 @@ let package = Package(
             targets: ["SwiftVG"]),
     ],
     dependencies: [
-		.package(url: "https://github.com/ios-tooling/Convey.git", from: "1.2.21"),
-		.package(url: "https://github.com/ios-tooling/Suite.git", from: "1.0.53"),
+		.package(url: "https://github.com/ios-tooling/Convey.git", from: "2.1.0"),
+		.package(url: "https://github.com/ios-tooling/Suite.git", from: "1.1.16"),
 		.package(url: "https://github.com/ios-tooling/CrossPlatformKit.git", from: "1.0.6"),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
-        .target(name: "SwiftVG", dependencies: ["Suite", "CrossPlatformKit", "Convey"]),
+		.target(name: "SwiftVG", dependencies: ["Suite", "CrossPlatformKit", "Convey"], resources: [.copy("PrivacyInfo.xcprivacy")]),
         
  //       .testTarget(name: "SwiftVGTests", dependencies: ["SwiftVG"]),
     ]
